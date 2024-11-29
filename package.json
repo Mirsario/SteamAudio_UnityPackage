@@ -1,0 +1,18 @@
+{
+  "name": "com.valvesoftware.steamaudio",
+  "version": "4.5.3",
+  "displayName": "Steam Audio",
+  "description": "Steam Audio is a cross-platform software toolkit for spatial audio. You can use it to add rich, immersive positional and environmental audio effects to games and VR/AR apps.",
+  "unity": "2017.3",
+  "author": {
+    "name": "Valve Corporation",
+    "url": "https://github.com/ValveSoftware"
+  },
+  "license": "Apache-2.0",
+  "licensesUrl": "https://github.com/ValveSoftware/steam-audio/blob/master/LICENSE.md",
+  "documentationUrl": "https://valvesoftware.github.io/steam-audio/doc/unity/index.html",
+  "keywords": [
+    "Realtime",
+    "Editor"
+  ]
+}
