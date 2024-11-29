@@ -22,5 +22,5 @@ The following changes were applied to files taken out of the `.unitypackage` fil
 
 ## Licensing
 - Steam Audio is a property of Valve Software, and is licensed under the `Apache License 2.0`, found in `LICENSE.md`.
-- Using the provided FMOD binaries in your game will mean that you agree to [its End User License Agreement](https://www.fmod.com/legal) and all of its requirements and restrictions.
+- FMOD is a property of Firelight Technologies Pty Ltd. and is subject to its own [special terms](https://fmod.com/licensing). In this package's context, setting the `Audio Engine` property of `Steam Audio Settings` to `FMOD Studio` means distributing FMOD with your game, thus agreeing to [FMOD's End User License Agreement](https://fmod.com/legal) and all of its requirements and restrictions. It is not used by default.
 - Licensing of other third-party libraries that come with Steam Audio is described in `THIRDPARTY.md`.
