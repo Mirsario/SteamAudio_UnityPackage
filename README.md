@@ -16,6 +16,7 @@ An approach of forking SteamAudio and morphing it into this state was considered
 ## Modifications
 The following changes were applied to files taken out of the `.unitypackage` file:
 - The `package.json` manifest was added, to actually make the repository work as a UPM package.
+- `SteamAudio/Scripts/Runtime/SteamAudioSettings.cs` was modified to fix its settings asset generation assuming presence at a mutable `Assets/Plugins/SteamAudio` path.
 - `LICENSE.md` (Apache License 2.0) was included from the Steam Audio git repository.
 - `THIRDPARTY.md` was included from the release zip file, the one which contained the `SteamAudio.unitypackage` file.
 

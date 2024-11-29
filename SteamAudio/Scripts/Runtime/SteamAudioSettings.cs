@@ -151,7 +151,14 @@ namespace SteamAudio
 #if UNITY_EDITOR
                         sSingleton.defaultMaterial = (SteamAudioMaterial) AssetDatabase.LoadAssetAtPath("Assets/Plugins/SteamAudio/Resources/Materials/Default.asset", typeof(SteamAudioMaterial));
 
+                        // SteamAudioUnityPackage: Changed due to git-sourced packages' immutability.
+                        /*
                         AssetDatabase.CreateAsset(sSingleton, "Assets/Plugins/SteamAudio/Resources/SteamAudioSettings.asset");
+                        */
+                        if (!AssetDatabase.IsValidFolder("Assets/Resources"))
+                            AssetDatabase.CreateFolder("Assets", "Resources");
+                        
+                        AssetDatabase.CreateAsset(sSingleton, "Assets/Resources/SteamAudioSettings.asset");
 #endif
                     }
                 }
